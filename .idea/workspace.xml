@@ -1,109 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="create project">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleframework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/bo/HeadLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/bo/ShopCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/dto/MainPageInfoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/dto/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/helloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/HeadLineShopCategoryCombineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/HeadLineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/ShopCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/RobotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/AbstractFactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/DellComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/HPComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/DellKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/DellMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/HPKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/HPMouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/DellMouseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/FactoryMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/HPMouseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/MouseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/simple/MouseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/ConstructorCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/FieldCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/MethodCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/ReflectTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/simpleframework.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/DispatcherServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/bo/HeadLine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/bo/ShopCategory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/dto/MainPageInfoDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/dto/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/helloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/HeadLineShopCategoryCombineService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/HeadLineService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/ShopCategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/HeadLineServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericClassExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericFactoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericIFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/RobotFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/AbstractFactoryDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/ComputerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/DellComputerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/HPComputerFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/DellKeyboard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/DellMouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/HPKeyboard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/HPMouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/Keyboard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/Mouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/DellMouseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/FactoryMethodDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/HPMouseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/MouseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/simple/MouseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/ConstructorCollector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/FieldCollector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/MethodCollector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/ReflectTarget.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/simpleframework/org/apache/jsp/WEB_002dINF/jsp/hello_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/simpleframework/org/apache/jsp/WEB_002dINF/jsp/hello_jsp.java" afterDir="false" />
+    <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,8 +229,16 @@
       <workItem from="1591931625456" duration="14980000" />
       <workItem from="1592014816852" duration="5071000" />
       <workItem from="1592043715022" duration="6618000" />
-      <workItem from="1592050509901" duration="591000" />
+      <workItem from="1592050509901" duration="648000" />
     </task>
+    <task id="LOCAL-00001" summary="create project">
+      <created>1592051114280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592051114280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,10 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="create project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="120" key="#Notifications" timestamp="1591929683318">
+    <state x="313" y="120" key="#Notifications" timestamp="1592051158441">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1591929683318" />
+    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1592051158441" />
     <state x="369" y="204" key="#Project_Structure" timestamp="1591930600128">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -362,10 +269,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1592044278998" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592051093815">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592051112582">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592051093815" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592051112582" />
     <state x="501" y="202" key="FileChooserDialogImpl" timestamp="1592050787150">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -394,6 +301,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592050668729" />
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592051130390">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592051130390" />
     <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592050510158">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
