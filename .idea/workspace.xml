@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="create project">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleframework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/bo/HeadLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/bo/ShopCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/dto/MainPageInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/entity/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/helloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/HeadLineShopCategoryCombineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/HeadLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/ShopCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/GenericIFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/generic/RobotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/AbstractFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/DellComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/abstractf/HPComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/DellKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/DellMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/HPKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/HPMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/entity/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/DellMouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/FactoryMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/HPMouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/method/MouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/factory/simple/MouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/ConstructorCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/FieldCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/MethodCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/reflect/ReflectTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/simpleframework.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/bo/HeadLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/bo/ShopCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/dto/MainPageInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/entity/dto/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/helloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/HeadLineShopCategoryCombineService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/HeadLineService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/ShopCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/HeadLineServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericClassExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/GenericIFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/generic/RobotFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/AbstractFactoryDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/ComputerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/DellComputerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/abstractf/HPComputerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/DellKeyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/DellMouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/HPKeyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/HPMouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/Keyboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/entity/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/DellMouseFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/FactoryMethodDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/HPMouseFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/method/MouseFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/factory/simple/MouseFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/ConstructorCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/FieldCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/MethodCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/reflect/ReflectTarget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/simpleframework/org/apache/jsp/WEB_002dINF/jsp/hello_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/simpleframework/org/apache/jsp/WEB_002dINF/jsp/hello_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="simpleframework" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Program Files\CodeBase\simpleframework\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1d7fVnMNpmRnHdFhqW5BFpn7JZs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files\CodeBase\simpleframework\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MethodCollector">
+    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.pattern.factory.abstractf.AbstractFactoryDemo" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.pattern.factory.abstractf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.reflect.ConstructorCollector" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FieldCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.reflect.FieldCollector" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.reflect.MethodCollector" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.reflect.ReflectTarget" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="simpleframework" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MethodCollector" />
+        <item itemvalue="Application.FieldCollector" />
+        <item itemvalue="Application.ConstructorCollector" />
+        <item itemvalue="Application.ReflectTarget" />
+        <item itemvalue="Application.AbstractFactoryDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/download/LocationSpark-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="" />
+      <created>1591781077623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591781077623</updated>
+      <workItem from="1591781082732" duration="3033000" />
+      <workItem from="1591928542804" duration="2786000" />
+      <workItem from="1591931625456" duration="14980000" />
+      <workItem from="1592014816852" duration="5071000" />
+      <workItem from="1592043715022" duration="6618000" />
+      <workItem from="1592050509901" duration="591000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="120" key="#Notifications" timestamp="1591929683318">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1591929683318" />
+    <state x="369" y="204" key="#Project_Structure" timestamp="1591930600128">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="369" y="204" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1591930600128" />
+    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591783812861">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1591783812861" />
+    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1592045935805">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592045935805" />
+    <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592044278998">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1592044278998" />
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592051093815">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592051093815" />
+    <state x="501" y="202" key="FileChooserDialogImpl" timestamp="1592050787150">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="202" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1592050787150" />
+    <state x="545" y="374" width="375" height="172" key="Github.CreateGistDialog" timestamp="1592049943890">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="545" y="374" width="375" height="172" key="Github.CreateGistDialog/0.0.1440.920@0.0.1440.920" timestamp="1592049943890" />
+    <state width="1397" height="200" key="GridCell.Tab.0.bottom" timestamp="1592050490278">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="200" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592050490278" />
+    <state width="1397" height="200" key="GridCell.Tab.0.center" timestamp="1592050490278">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="200" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1592050490278" />
+    <state width="1397" height="200" key="GridCell.Tab.0.left" timestamp="1592050490278">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="200" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1592050490278" />
+    <state width="1397" height="200" key="GridCell.Tab.0.right" timestamp="1592050490278">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="200" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1592050490278" />
+    <state x="222" y="103" key="SettingsEditor" timestamp="1592050668729">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592050668729" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592050510158">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592050510158" />
+    <state x="705" y="200" width="672" height="678" key="search.everywhere.popup" timestamp="1592042622313">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="705" y="200" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1592042622313" />
+  </component>
+</project>
