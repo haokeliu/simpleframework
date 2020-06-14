@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/annotation/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/annotation/CourseInfoAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/annotation/ImoocCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/annotation/PersonInfoAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/annotation/AnnotationDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/annotation/CourseInfoAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/annotation/ImoocCourse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/annotation/PersonInfoAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/annotation/TestAnnotation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -73,13 +83,13 @@
       <recent name="D:\Program Files\CodeBase\simpleframework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodCollector">
-    <configuration name="AbstractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.pattern.factory.abstractf.AbstractFactoryDemo" />
+  <component name="RunManager" selected="Application.AnnotationDemo">
+    <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.annotation.AnnotationDemo" />
       <module name="simpleframework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.pattern.factory.abstractf.*" />
+          <option name="PATTERN" value="demo.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationDemo" />
         <item itemvalue="Application.MethodCollector" />
         <item itemvalue="Application.FieldCollector" />
         <item itemvalue="Application.ConstructorCollector" />
         <item itemvalue="Application.ReflectTarget" />
-        <item itemvalue="Application.AbstractFactoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +243,7 @@
       <workItem from="1592043715022" duration="6618000" />
       <workItem from="1592050509901" duration="1255000" />
       <workItem from="1592051784698" duration="641000" />
-      <workItem from="1592099556251" duration="1824000" />
+      <workItem from="1592099556251" duration="4154000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -291,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592052273600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020.06.14 13:30">
+      <created>1592112584606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592112584606</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +329,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+    <MESSAGE value="2020.06.14 13:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020.06.14 13:30" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="120" key="#Notifications" timestamp="1592051365014">
@@ -335,10 +353,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1592044278998" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592052273003">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592112583941">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592052273003" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592112583941" />
     <state x="66" y="80" key="DiffContextDialog" timestamp="1592052265170">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
