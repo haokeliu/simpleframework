@@ -50,7 +50,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1d7fVnMNpmRnHdFhqW5BFpn7JZs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -230,7 +232,8 @@
       <workItem from="1592014816852" duration="5071000" />
       <workItem from="1592043715022" duration="6618000" />
       <workItem from="1592050509901" duration="1255000" />
-      <workItem from="1592051784698" duration="338000" />
+      <workItem from="1592051784698" duration="641000" />
+      <workItem from="1592099556251" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -267,11 +270,45 @@
       <option name="project" value="LOCAL" />
       <updated>1592051925888</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create project">
+      <created>1592052131750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592052131750</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create project">
+      <created>1592052228461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592052228461</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create project">
+      <created>1592052273600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592052273600</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
@@ -298,10 +335,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1592044278998" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592052240573">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592052273003">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592052240573" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592052273003" />
+    <state x="66" y="80" key="DiffContextDialog" timestamp="1592052265170">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="66" y="80" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1592052265170" />
     <state x="501" y="202" key="FileChooserDialogImpl" timestamp="1592050787150">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -334,14 +375,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592051867646" />
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592052155482">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592052282395">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592052155482" />
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592051784398">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592052282395" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592099591008">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592051784398" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592099591008" />
     <state x="517" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592051986293">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
