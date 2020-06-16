@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/annotation/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/annotation/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/util/ClassUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/annotation/Component.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/annotation/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/annotation/Repository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/annotation/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/util/ClassUtilTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +242,7 @@
       <workItem from="1592051784698" duration="641000" />
       <workItem from="1592099556251" duration="4154000" />
       <workItem from="1592226110319" duration="3447000" />
-      <workItem from="1592304283065" duration="3325000" />
+      <workItem from="1592304283065" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -320,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592112584606</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加Util工具类">
+      <created>1592312581254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592312581254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +336,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="2020.06.14 13:30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020.06.14 13:30" />
+    <MESSAGE value="添加Util工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Util工具类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="120" key="#Notifications" timestamp="1592051365014">
@@ -377,10 +372,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="476" y="163" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1592207493767" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592134911000">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592312580331">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592134911000" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592312580331" />
     <state width="466" height="466" key="DebuggerActiveHint" timestamp="1592206401603">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -437,10 +432,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592051867646" />
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592190425728">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592312590438">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592190425728" />
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592312590438" />
     <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592304282983">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

@@ -48,6 +48,8 @@ public class ClassUtil {
             File packageDirectory = new File(encode);
             extractClassFile(classSet, packageDirectory, packageName);
         }
+        //TODO 此处可加入针对其他类型资源的处理
+
         return classSet;
     }
 
