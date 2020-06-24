@@ -3,11 +3,13 @@ package club.haokeliu.controller.superadmin;
 import club.haokeliu.entity.bo.ShopCategory;
 import club.haokeliu.entity.dto.Result;
 import club.haokeliu.service.solo.ShopCategoryService;
+import org.simpleframework.core.annotation.Controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
+@Controller
 public class ShopCategoryOperationController {
 
     private ShopCategoryService shopCategoryService;

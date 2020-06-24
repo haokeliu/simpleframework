@@ -3,9 +3,11 @@ package club.haokeliu.service.solo.impl;
 import club.haokeliu.entity.bo.ShopCategory;
 import club.haokeliu.entity.dto.Result;
 import club.haokeliu.service.solo.ShopCategoryService;
+import org.simpleframework.core.annotation.Service;
 
 import java.util.List;
 
+@Service
 public class ShopCategoryServiceImpl implements ShopCategoryService {
     @Override
     public Result<Boolean> addShopCategory(ShopCategory shopCategory) {

@@ -6,6 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.UnsupportedEncodingException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.net.URLDecoder;
 import java.util.HashSet;
@@ -44,7 +46,6 @@ public class ClassUtil {
             //乱码 编码 /D:/Program Files/CodeBase/simpleframework/target/classes/club/haokeliu/entity
             // 我的路径带" "导致转码后成了 %20导致后续路径无法识别
             String encode = URLDecoder.decode(url.getPath(), "UTF-8");
-            System.out.println(encode);
             File packageDirectory = new File(encode);
             extractClassFile(classSet, packageDirectory, packageName);
         }
@@ -131,5 +132,34 @@ public class ClassUtil {
     @SneakyThrows
     public static void main(String[] args) {
         extractPackageClass("club.haokeliu.entity");
+    }
+
+    /**
+     * 实例化Class
+     *
+     * @Param clazz Class
+     * @Param <T> class的类型
+     * @Param accessible 是否支持创建出私有class对象的实例
+     * @return 类的实例化
+     */
+    public static <T> T newInstance(Class<?> clazz, boolean accessible){
+        try {
+            Constructor constructor = clazz.getDeclaredConstructor();
+            constructor.setAccessible(accessible);
+            return (T)constructor.newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+            log.error("InstantiationException",e);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+            log.error("IllegalAccessException",e);
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+            log.error("InvocationTargetException",e);
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+            log.error("NoSuchMethodException",e);
+        }
+        throw new RuntimeException();
     }
 }

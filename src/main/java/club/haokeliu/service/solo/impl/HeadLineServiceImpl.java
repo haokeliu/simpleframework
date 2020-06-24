@@ -3,9 +3,11 @@ package club.haokeliu.service.solo.impl;
 import club.haokeliu.entity.bo.HeadLine;
 import club.haokeliu.entity.dto.Result;
 import club.haokeliu.service.solo.HeadLineService;
+import org.simpleframework.core.annotation.Service;
 
 import java.util.List;
 
+@Service
 public class HeadLineServiceImpl implements HeadLineService {
     @Override
     public Result<Boolean> addHeadLine(HeadLine headLine) {

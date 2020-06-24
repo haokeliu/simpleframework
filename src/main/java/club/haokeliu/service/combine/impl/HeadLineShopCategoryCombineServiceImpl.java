@@ -7,9 +7,11 @@ import club.haokeliu.entity.dto.Result;
 import club.haokeliu.service.combine.HeadLineShopCategoryCombineService;
 import club.haokeliu.service.solo.HeadLineService;
 import club.haokeliu.service.solo.ShopCategoryService;
+import org.simpleframework.core.annotation.Service;
 
 import java.util.List;
 
+@Service
 public class HeadLineShopCategoryCombineServiceImpl implements HeadLineShopCategoryCombineService {
     private HeadLineService headLineService;
     private ShopCategoryService shopCategoryService;
