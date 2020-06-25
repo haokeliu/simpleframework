@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/singleton/EnumStarvingSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/singleton/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/BeanContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ValidationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/singleton/EnumStarvingSingleton$ContainerHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/singleton/EnumStarvingSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/demo/pattern/singleton/LazyDoubleCheckSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/BeanContainer$ContainerHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/core/BeanContainer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ValidationUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/core/BeanContainerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/HeadLineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/HeadLineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/pattern/singleton/StarvingSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/pattern/singleton/StarvingSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/HeadLineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/HeadLineServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/solo/impl/ShopCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/pattern/singleton/StarvingSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/pattern/singleton/StarvingSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/BeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +253,8 @@
       <workItem from="1592394914954" duration="6469000" />
       <workItem from="1592657702694" duration="552000" />
       <workItem from="1592732276472" duration="2699000" />
-      <workItem from="1592987387309" duration="8584000" />
+      <workItem from="1592987387309" duration="8715000" />
+      <workItem from="1593054555243" duration="6379000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -367,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592395762119</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="实现BeanContainerHolder">
+      <created>1593010269967</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593010269967</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,13 +372,14 @@
     <MESSAGE value="添加Util工具类" />
     <MESSAGE value="Util工具类功能完善" />
     <MESSAGE value="单例模式学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式学习" />
+    <MESSAGE value="实现BeanContainerHolder" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现BeanContainerHolder" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="120" key="#Notifications" timestamp="1592051365014">
+    <state x="313" y="120" key="#Notifications" timestamp="1593083770110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1592051365014" />
+    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1593083770110" />
     <state x="369" y="204" key="#Project_Structure" timestamp="1591930600128">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -427,10 +408,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="476" y="163" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1592207493767" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1592395761286">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1593010268703">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1592395761286" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593010268703" />
     <state width="466" height="466" key="DebuggerActiveHint" timestamp="1592206401603">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -451,22 +432,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="571" y="352" width="299" height="273" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1592051913565" />
-    <state width="752" height="218" key="GridCell.Tab.0.bottom" timestamp="1593010139968">
+    <state width="1397" height="218" key="GridCell.Tab.0.bottom" timestamp="1593092861586">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="218" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593010139968" />
-    <state width="752" height="218" key="GridCell.Tab.0.center" timestamp="1593010139968">
+    <state width="1397" height="218" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
+    <state width="1397" height="218" key="GridCell.Tab.0.center" timestamp="1593092861586">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="218" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593010139968" />
-    <state width="752" height="218" key="GridCell.Tab.0.left" timestamp="1593010139968">
+    <state width="1397" height="218" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
+    <state width="1397" height="218" key="GridCell.Tab.0.left" timestamp="1593092861586">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="218" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593010139968" />
-    <state width="752" height="218" key="GridCell.Tab.0.right" timestamp="1593010139968">
+    <state width="1397" height="218" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
+    <state width="1397" height="218" key="GridCell.Tab.0.right" timestamp="1593092861586">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="218" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593010139968" />
+    <state width="1397" height="218" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
     <state width="1397" height="269" key="GridCell.Tab.1.bottom" timestamp="1592316615877">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -487,14 +468,14 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592993649634" />
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1592395772680">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1593059246763">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1592395772680" />
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1592987407188">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593059246763" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1593054554293">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1592987407188" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1593054554293" />
     <state x="517" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592051986293">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

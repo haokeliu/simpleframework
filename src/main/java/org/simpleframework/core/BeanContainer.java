@@ -8,13 +8,11 @@ import org.simpleframework.core.annotation.Controller;
 import org.simpleframework.core.annotation.Repository;
 import org.simpleframework.core.annotation.Service;
 import org.simpleframework.util.ClassUtil;
+import org.simpleframework.util.ValidationUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.annotation.Annotation;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -101,4 +99,111 @@ public class BeanContainer {
         }
         loaded = true;
     }
+
+    /**
+     * 添加一个class对象及其Bean实例
+     *
+     * @Param clazz Class对象
+     * @Param bean Bean实例
+     *
+     * @Return 原有的Bean实例，没有则返回null
+     */
+    public Object addBean(Class<?> clazz, Object bean){
+        return beanMap.put(clazz, bean);
+    }
+
+    /**
+     * 移除一个IOC容器管理的对象
+     *
+     * @param clazz Class对象
+     *
+     * @return 删除的Bean实例,没有则返回Null
+     */
+    public Object removeBean(Class<?> clazz){
+        return beanMap.remove(clazz);
+    }
+
+    /**
+     * 根据Class对象获取Bean实例
+     *
+     * @param clazz CLass对象
+     * @return Bean实例
+     */
+    public Object getBean(Class<?> clazz){
+        return beanMap.get(clazz);
+    }
+
+    /**
+     * 获取容器管理的所有Class对象集合
+     *
+     * @return Class集合
+     */
+    public Set<Class<?>> getClasses(){
+        return beanMap.keySet();
+    }
+
+    /**
+     * 获取容器管理的所有Bean对象集合
+     *
+     * @return Bean集合
+     */
+    public HashSet<Object> getBeans(){
+        return new HashSet<>(beanMap.values());
+    }
+
+    /**
+     * 根据注解筛选出Bean的Class集合
+     *
+     * @param annotation 注解
+     * @return Class 集合
+     */
+    public Set< Class<?> > getClassesByAnnotation(Class<? extends Annotation> annotation){
+        //1.获取beanMap的所有Class对象
+        Set<Class<?>> keySet = getClasses();
+        if (ValidationUtil.isEmpty(keySet)){
+            log.warn("nothing in beanMap");
+            return null;
+        }
+        //2.通过注解筛选出被注解标记的Class对象，并添加到classSet中
+        Set< Class<?> > classSet = new HashSet<>();
+        for (Class<?> clazz : keySet){
+            // 类是否有相关的注解标记
+            if (clazz.isAnnotationPresent(annotation)){
+                classSet.add(clazz);
+            }
+        }
+        return classSet.size() > 0 ? classSet : null;
+    }
+
+    /**
+     * 通过接口或者父类获取实现类或者子类的Class集合，不包括本身
+     *
+     * @param interfaceOrClass 接口Class或者父类Class
+     * @return Class集合
+     */
+    public Set< Class<?> > getClassesBySuper(Class<?> interfaceOrClass){
+        //1.获取beanMap的所有Class对象
+        Set<Class<?>> keySet = getClasses();
+        if (ValidationUtil.isEmpty(keySet)){
+            log.warn("nothing in beanMap");
+            return null;
+        }
+        //2.判读KeySet里的元素是否是传入的接口或者类的子类，
+        // 如果时，添加到classSet里
+        Set< Class<?> > classSet = new HashSet<>();
+        for (Class<?> clazz : keySet){
+            // 判断KeySet里的元素是否是传入的接口或者类的子类
+            // isAssignableFrom : Determines if the class or interface represented by this
+            // 确定此表示的类或接口
+            // A 是否起源于 B A.isAssignableFrom(B)
+            // 可以判断父类或者超类
+            // 也可判断非直接继承关系，中间可以隔代 interface/extends
+            // 判断自己是自己是返回true，该方法需要超类
+            if (interfaceOrClass.isAssignableFrom(clazz) && !clazz.equals(interfaceOrClass)){
+                classSet.add(clazz);
+            }
+        }
+        return classSet.size() > 0 ? classSet : null;
+    }
+
 }
