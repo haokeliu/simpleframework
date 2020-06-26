@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/inject/DependencyInjector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/inject/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/inject/DependencyInjectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/DependencyInjector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/annotation/Autowired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/inject/DependencyInjectorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/core/BeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/simpleframework/core/BeanContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/core/BeanContainerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/simpleframework/inject" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -72,11 +92,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.simpleframework.inject" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program Files\CodeBase\simpleframework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BeanContainerTest">
+  <component name="RunManager" selected="JUnit.DependencyInjectorTest">
     <configuration name="StarvingSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.pattern.singleton.StarvingSingleton" />
       <module name="simpleframework" />
@@ -121,21 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simpleframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.simpleframework.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.simpleframework.util" />
-      <option name="MAIN_CLASS_NAME" value="org.simpleframework.util.ClassUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClassUtilTest.extractPackageClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simpleframework" />
       <extension name="coverage">
@@ -148,6 +156,21 @@
       <option name="MAIN_CLASS_NAME" value="org.simpleframework.util.ClassUtilTest" />
       <option name="METHOD_NAME" value="extractPackageClassTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DependencyInjectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.simpleframework.inject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.simpleframework.inject" />
+      <option name="MAIN_CLASS_NAME" value="org.simpleframework.inject.DependencyInjectorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DependencyInjectorTest" />
         <item itemvalue="JUnit.BeanContainerTest" />
         <item itemvalue="JUnit.BeanContainerTest.loadBeansTest" />
         <item itemvalue="Application.StarvingSingleton" />
         <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
-        <item itemvalue="JUnit.ClassUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +277,9 @@
       <workItem from="1592657702694" duration="552000" />
       <workItem from="1592732276472" duration="2699000" />
       <workItem from="1592987387309" duration="8715000" />
-      <workItem from="1593054555243" duration="6379000" />
+      <workItem from="1593054555243" duration="7093000" />
+      <workItem from="1593136982013" duration="6526000" />
+      <workItem from="1593163574704" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -347,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593010269967</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="实现BeanContainerHolder">
+      <created>1593094232360</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593094232360</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,10 +408,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="实现BeanContainerHolder" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="120" key="#Notifications" timestamp="1593083770110">
+    <state x="313" y="120" key="#Notifications" timestamp="1593163641381">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1593083770110" />
+    <state x="313" y="120" key="#Notifications/0.0.1440.920@0.0.1440.920" timestamp="1593163641381" />
     <state x="369" y="204" key="#Project_Structure" timestamp="1591930600128">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -392,14 +424,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="93" y="93" width="1255" height="735" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.920@0.0.1440.920" timestamp="1592304659376" />
-    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1592045935805">
+    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser" timestamp="1593165501794">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1592045935805" />
+    <state x="0" y="324" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1593165501794" />
     <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592044278998">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="748" y="490" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1592044278998" />
+    <state x="828" y="319" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593164631131">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="828" y="319" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.920@0.0.1440.920" timestamp="1593164631131" />
     <state x="764" y="164" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1592206011358">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -408,18 +444,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="476" y="163" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1592207493767" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1593010268703">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1593094231592">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593010268703" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593094231592" />
     <state width="466" height="466" key="DebuggerActiveHint" timestamp="1592206401603">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="466" height="466" key="DebuggerActiveHint/0.0.1440.920@0.0.1440.920" timestamp="1592206401603" />
-    <state x="66" y="80" key="DiffContextDialog" timestamp="1592052265170">
+    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog" timestamp="1593094607820">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="66" y="80" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1592052265170" />
+    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1593094607820" />
     <state x="501" y="202" key="FileChooserDialogImpl" timestamp="1592050787150">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -432,50 +468,54 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="571" y="352" width="299" height="273" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1592051913565" />
-    <state width="1397" height="218" key="GridCell.Tab.0.bottom" timestamp="1593092861586">
+    <state width="1397" height="214" key="GridCell.Tab.0.bottom" timestamp="1593165716409">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="218" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
-    <state width="1397" height="218" key="GridCell.Tab.0.center" timestamp="1593092861586">
+    <state width="1397" height="214" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
+    <state width="1397" height="214" key="GridCell.Tab.0.center" timestamp="1593165716409">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="218" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
-    <state width="1397" height="218" key="GridCell.Tab.0.left" timestamp="1593092861586">
+    <state width="1397" height="214" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
+    <state width="1397" height="214" key="GridCell.Tab.0.left" timestamp="1593165716408">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="218" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
-    <state width="1397" height="218" key="GridCell.Tab.0.right" timestamp="1593092861586">
+    <state width="1397" height="214" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593165716408" />
+    <state width="1397" height="214" key="GridCell.Tab.0.right" timestamp="1593165716409">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="218" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593092861586" />
-    <state width="1397" height="269" key="GridCell.Tab.1.bottom" timestamp="1592316615877">
+    <state width="1397" height="214" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
+    <state width="752" height="188" key="GridCell.Tab.1.bottom" timestamp="1593165546708">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="269" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1592316615877" />
-    <state width="1397" height="269" key="GridCell.Tab.1.center" timestamp="1592316615877">
+    <state width="752" height="188" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
+    <state width="752" height="188" key="GridCell.Tab.1.center" timestamp="1593165546708">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="269" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1592316615877" />
-    <state width="1397" height="269" key="GridCell.Tab.1.left" timestamp="1592316615877">
+    <state width="752" height="188" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
+    <state width="752" height="188" key="GridCell.Tab.1.left" timestamp="1593165546708">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="269" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1592316615877" />
-    <state width="1397" height="269" key="GridCell.Tab.1.right" timestamp="1592316615877">
+    <state width="752" height="188" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
+    <state width="752" height="188" key="GridCell.Tab.1.right" timestamp="1593165546708">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="269" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1592316615877" />
+    <state width="752" height="188" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
     <state x="222" y="103" key="SettingsEditor" timestamp="1592993649634">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592993649634" />
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1593059246763">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1593094240341">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593059246763" />
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1593054554293">
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593094240341" />
+    <state x="843" y="240" key="chooseDestDirectoryDialog" timestamp="1593164630287">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1593054554293" />
+    <state x="843" y="240" key="chooseDestDirectoryDialog/0.0.1440.920@0.0.1440.920" timestamp="1593164630287" />
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1593163574704">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="405" y="285" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1593163574704" />
     <state x="517" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592051986293">
       <screen x="0" y="0" width="1440" height="920" />
     </state>

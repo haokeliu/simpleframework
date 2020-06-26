@@ -4,6 +4,7 @@ import club.haokeliu.entity.bo.ShopCategory;
 import club.haokeliu.entity.dto.Result;
 import club.haokeliu.service.solo.ShopCategoryService;
 import org.simpleframework.core.annotation.Controller;
+import org.simpleframework.inject.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,6 +13,7 @@ import java.util.List;
 @Controller
 public class ShopCategoryOperationController {
 
+    @Autowired
     private ShopCategoryService shopCategoryService;
     //添加
     public Result<Boolean> addShopCategory(HttpServletRequest req, HttpServletResponse resp){

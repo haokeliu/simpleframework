@@ -2,7 +2,6 @@ package org.simpleframework.core;
 
 import club.haokeliu.controller.DispatcherServlet;
 import club.haokeliu.controller.frontend.MainPageController;
-import club.haokeliu.entity.bo.HeadLine;
 import club.haokeliu.service.solo.HeadLineService;
 import club.haokeliu.service.solo.impl.HeadLineServiceImpl;
 import lombok.SneakyThrows;

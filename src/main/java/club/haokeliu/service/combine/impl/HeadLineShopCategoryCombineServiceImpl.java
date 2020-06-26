@@ -8,13 +8,19 @@ import club.haokeliu.service.combine.HeadLineShopCategoryCombineService;
 import club.haokeliu.service.solo.HeadLineService;
 import club.haokeliu.service.solo.ShopCategoryService;
 import org.simpleframework.core.annotation.Service;
+import org.simpleframework.inject.annotation.Autowired;
 
 import java.util.List;
 
 @Service
 public class HeadLineShopCategoryCombineServiceImpl implements HeadLineShopCategoryCombineService {
+
+    @Autowired
     private HeadLineService headLineService;
+
+    @Autowired
     private ShopCategoryService shopCategoryService;
+
     @Override
     public Result<MainPageInfoDTO> getMainPageInfo() {
         // 1.获取头条列表
