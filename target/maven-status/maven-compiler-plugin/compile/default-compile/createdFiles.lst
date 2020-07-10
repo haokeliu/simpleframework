@@ -1,11 +1,10 @@
-club\haokeliu\controller\DispatcherServlet.class
-club\haokeliu\service\solo\HeadLineService.class
-club\haokeliu\service\solo\ShopCategoryService.class
-club\haokeliu\service\combine\HeadLineShopCategoryCombineService.class
-club\haokeliu\helloServlet.class
 club\haokeliu\entity\dto\MainPageInfoDTO.class
-club\haokeliu\entity\dto\Result.class
 club\haokeliu\service\solo\impl\HeadLineServiceImpl.class
 club\haokeliu\service\solo\impl\ShopCategoryServiceImpl.class
-demp\generic\GenericFactoryImpl.class
+club\haokeliu\controller\DispatcherServlet.class
+club\haokeliu\helloServlet.class
+club\haokeliu\entity\dto\Result.class
+club\haokeliu\service\solo\HeadLineService.class
+club\haokeliu\service\solo\ShopCategoryService.class
 club\haokeliu\service\combine\impl\HeadLineShopCategoryCombineServiceImpl.class
+club\haokeliu\service\combine\HeadLineShopCategoryCombineService.class

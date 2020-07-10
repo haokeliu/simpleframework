@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0e2745-2b9b-43eb-9625-47b841620941" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/inject/DependencyInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/inject/annotation/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/inject/DependencyInjectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/DependencyInjector.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/annotation/Autowired.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/inject/DependencyInjectorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/resource/ResourceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/resource/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/demo/resource/ResourceDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-06-26" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/frontend/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/HeadLineOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/controller/superadmin/ShopCategoryOperationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/simpleframework/util/ClassUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/simpleframework/core/BeanContainerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/frontend/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/HeadLineOperationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/controller/superadmin/ShopCategoryOperationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/service/combine/impl/HeadLineShopCategoryCombineServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/util/ClassUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/simpleframework/core/BeanContainerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/simpleframework/core/BeanContainerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/haokeliu/helloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/haokeliu/helloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/club/haokeliu/helloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/haokeliu/helloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/DependencyInjector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/simpleframework/inject/DependencyInjector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +87,20 @@
       <recent name="D:\Program Files\CodeBase\simpleframework\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyInjectorTest">
+  <component name="RunManager" selected="Application.ResourceDemo">
+    <configuration name="ResourceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.resource.ResourceDemo" />
+      <module name="simpleframework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.resource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StarvingSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.pattern.singleton.StarvingSingleton" />
       <module name="simpleframework" />
@@ -139,22 +140,6 @@
       <option name="PACKAGE_NAME" value="org.simpleframework.core" />
       <option name="MAIN_CLASS_NAME" value="org.simpleframework.core.BeanContainerTest" />
       <option name="METHOD_NAME" value="loadBeansTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassUtilTest.extractPackageClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="simpleframework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.simpleframework.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.simpleframework.util" />
-      <option name="MAIN_CLASS_NAME" value="org.simpleframework.util.ClassUtilTest" />
-      <option name="METHOD_NAME" value="extractPackageClassTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResourceDemo" />
         <item itemvalue="JUnit.DependencyInjectorTest" />
         <item itemvalue="JUnit.BeanContainerTest" />
         <item itemvalue="JUnit.BeanContainerTest.loadBeansTest" />
         <item itemvalue="Application.StarvingSingleton" />
-        <item itemvalue="JUnit.ClassUtilTest.extractPackageClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +264,8 @@
       <workItem from="1592987387309" duration="8715000" />
       <workItem from="1593054555243" duration="7093000" />
       <workItem from="1593136982013" duration="6526000" />
-      <workItem from="1593163574704" duration="3114000" />
+      <workItem from="1593163574704" duration="4233000" />
+      <workItem from="1594351900871" duration="2272000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1592051114280</created>
@@ -379,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593094232360</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="实现Autowired注解">
+      <created>1593166711154</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593166711154</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +398,8 @@
     <MESSAGE value="Util工具类功能完善" />
     <MESSAGE value="单例模式学习" />
     <MESSAGE value="实现BeanContainerHolder" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现BeanContainerHolder" />
+    <MESSAGE value="实现Autowired注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现Autowired注解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="120" key="#Notifications" timestamp="1593163641381">
@@ -416,10 +410,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="369" y="204" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1591930600128" />
-    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591783812861">
+    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593167030896">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1591783812861" />
+    <state x="204" y="107" width="1089" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1593167030896" />
     <state x="93" y="93" width="1255" height="735" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592304659376">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -444,18 +438,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="476" y="163" key="#xdebugger.evaluate/0.0.1440.920@0.0.1440.920" timestamp="1592207493767" />
-    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1593094231592">
+    <state x="242" y="53" key="CommitChangelistDialog2" timestamp="1593166710026">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593094231592" />
+    <state x="242" y="53" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1593166710026" />
     <state width="466" height="466" key="DebuggerActiveHint" timestamp="1592206401603">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="466" height="466" key="DebuggerActiveHint/0.0.1440.920@0.0.1440.920" timestamp="1592206401603" />
-    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog" timestamp="1593094607820">
+    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog" timestamp="1593167106234">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1593094607820" />
+    <state x="66" y="80" width="1152" height="762" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1593167106234" />
     <state x="501" y="202" key="FileChooserDialogImpl" timestamp="1592050787150">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -468,46 +462,50 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="571" y="352" width="299" height="273" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1592051913565" />
-    <state width="1397" height="214" key="GridCell.Tab.0.bottom" timestamp="1593165716409">
+    <state width="752" height="190" key="GridCell.Tab.0.bottom" timestamp="1593169452110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
-    <state width="1397" height="214" key="GridCell.Tab.0.center" timestamp="1593165716409">
+    <state width="752" height="190" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593169452110" />
+    <state width="752" height="190" key="GridCell.Tab.0.center" timestamp="1593169452110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
-    <state width="1397" height="214" key="GridCell.Tab.0.left" timestamp="1593165716408">
+    <state width="752" height="190" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1593169452110" />
+    <state width="752" height="190" key="GridCell.Tab.0.left" timestamp="1593169452110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593165716408" />
-    <state width="1397" height="214" key="GridCell.Tab.0.right" timestamp="1593165716409">
+    <state width="752" height="190" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1593169452110" />
+    <state width="752" height="190" key="GridCell.Tab.0.right" timestamp="1593169452110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="214" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593165716409" />
-    <state width="752" height="188" key="GridCell.Tab.1.bottom" timestamp="1593165546708">
+    <state width="752" height="190" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1593169452110" />
+    <state width="752" height="190" key="GridCell.Tab.1.bottom" timestamp="1593169452111">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="188" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
-    <state width="752" height="188" key="GridCell.Tab.1.center" timestamp="1593165546708">
+    <state width="752" height="190" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1593169452111" />
+    <state width="752" height="190" key="GridCell.Tab.1.center" timestamp="1593169452111">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="188" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
-    <state width="752" height="188" key="GridCell.Tab.1.left" timestamp="1593165546708">
+    <state width="752" height="190" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1593169452111" />
+    <state width="752" height="190" key="GridCell.Tab.1.left" timestamp="1593169452110">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="188" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
-    <state width="752" height="188" key="GridCell.Tab.1.right" timestamp="1593165546708">
+    <state width="752" height="190" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1593169452110" />
+    <state width="752" height="190" key="GridCell.Tab.1.right" timestamp="1593169452111">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="752" height="188" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593165546708" />
-    <state x="222" y="103" key="SettingsEditor" timestamp="1592993649634">
+    <state width="752" height="190" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1593169452111" />
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog" timestamp="1594356449265">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="103" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1592993649634" />
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1593094240341">
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog/0.0.1440.920@0.0.1440.920" timestamp="1594356449265" />
+    <state x="399" y="119" key="SettingsEditor" timestamp="1593169450265">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593094240341" />
+    <state x="399" y="119" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1593169450265" />
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2" timestamp="1593166718538">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1593166718538" />
     <state x="843" y="240" key="chooseDestDirectoryDialog" timestamp="1593164630287">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -524,9 +522,9 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="781" y="215" key="extract.method.dialog/0.0.1440.920@0.0.1440.920" timestamp="1592206041211" />
-    <state x="705" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1592742952133">
+    <state x="705" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1593167079317">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="705" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1592742952133" />
+    <state x="705" y="199" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1593167079317" />
   </component>
 </project>
